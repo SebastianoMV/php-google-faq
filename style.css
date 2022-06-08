@@ -4,6 +4,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
+  background-color: white;
 }
 
 ul{
@@ -13,4 +14,8 @@ ul{
 
 li{
   margin-right: 40px;
+}
+
+main{
+  padding-top: 200px;
 }

@@ -78,7 +78,14 @@ $db = [
 
   <main>
     <div class="container">
-    
+      <?php foreach($db as $faq): ?>
+        <h3>
+          <?php echo $faq['title'] ?>
+        </h3>
+        <p>
+          <?php echo $faq['paragraph'] ?>
+        </p>
+      <?php endforeach; ?>
     </div>
 
   </main>
