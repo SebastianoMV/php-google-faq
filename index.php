@@ -67,16 +67,21 @@ $db = [
 <body>
   <header>
     <div class="d-flex justify-content-between m-3 ">
-     <div>google</div>
-     <div>immagine</div>
+     <div class="d-flex align-items-center">
+       <img src="https://www.artandmusicstudios.com/wp-content/uploads/2020/01/google-logo-png-hd-11.png" alt="logo">
+       <span>Privacy & Terms</span>
+      </div>
+     <div class="circle d-flex align-items-center justify-content-center">
+       S
+     </div>
     </div>
     <div class="d-flex justify-content-between mx-3 ">
-     <ul class="d-flex">
+     <ul>
        <li>Overview</li>
        <li>Privacy Policy</li>
        <li>Terms of Service</li>
        <li>Technologies</li>
-       <li>FAQ</li>
+       <li class="active">FAQ</li>
 
      </ul>
     </div>
@@ -97,6 +102,20 @@ $db = [
   </main>
   
   <footer>
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <ul>
+        <li>Google</li>
+        <li>About Google</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+      </ul>
+      <div>
+        <select name="" id="">
+          <option value="0">English</option>
+          <option value="1">Italiano</option>
+        </select>
+      </div>
+    </div>
 
   </footer>
 </body>

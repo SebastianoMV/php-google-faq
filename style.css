@@ -7,13 +7,41 @@ header{
   background-color: white;
 }
 
+header img{
+  width: 100px;
+}
+
+header span{
+  color: gray;
+  font-size: 30px;
+}
+
+.circle{
+  height: 40px;
+  width: 40px;
+  background-color: #f4511e;
+  border-radius: 50%;
+  color: white;
+}
+
 ul{
   list-style: none;
   padding-inline-start: 0px;
+  display: flex;
+  margin-bottom: 0 !important;
 }
 
 li{
   margin-right: 40px;
+}
+
+header ul li{
+  padding-bottom: 5px;
+}
+
+.active{
+  color: #4271ff;
+  border-bottom: 3px solid #4271ff;
 }
 
 main{
@@ -35,4 +63,13 @@ ol{
 ol li{
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+footer{
+  background-color: lightgrey;
+}
+
+footer ul li{
+  color: gray;
+  font-size: 12px;
 }
